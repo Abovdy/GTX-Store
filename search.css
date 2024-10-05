@@ -1,0 +1,54 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    border-radius: 40px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.10s ease;
+    width: 350px;
+}
+
+.search-container:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+    background-color: #fff;
+    color: #333;
+}
+
+.search-input:focus {
+    width: 250px;
+    background-color: #f0f0f0;
+}
+
+.search-btn {
+    border: none;
+    background-color: #3498db;
+    /* لون الزر */
+    color: white;
+    /* لون النص */
+    padding: 10px 15px;
+    /* تباعد داخل الزر */
+    border-radius: 20px;
+    /* زوايا مدورة بسيطة */
+    cursor: pointer;
+    /* شكل المؤشر */
+    font-size: 20px;
+    /* حجم الخط */
+    transition: background-color 0.3s ease;
+    /* تأثير التغير في اللون */
+}
+
+.search-btn:hover {
+    background-color: #2980b9;
+    /* لون الزر عند التمرير */
+}
